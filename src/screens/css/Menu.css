@@ -1,0 +1,32 @@
+.kits-screens-Menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.kits-screens-Menu__link {
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+}
+
+.kits-screens-Menu__link:nth-child(1) {
+    background: #ffa593;
+}
+
+.kits-screens-Menu__link:nth-child(2) {
+    background: #93faff;
+}
+
+.kits-screens-Menu__link:nth-child(3) {
+    background: #bbff93;
+}
+
+.kits-screens-Menu__link__text {
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+}

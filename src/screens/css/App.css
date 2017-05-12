@@ -1,0 +1,20 @@
+.kits_App {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.kits_App > * {
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.kits_App__text, .kits_App__button {
+  flex-grow: 0;
+}
+
+.kits_App__button {
+    height: 50px;
+}
+
